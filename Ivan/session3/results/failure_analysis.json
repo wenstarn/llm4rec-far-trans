@@ -1,0 +1,272 @@
+{
+  "protocol": {
+    "protocol_sha256": "d8b0a946f0fc416583234ccef77633c69a3f37f5734733d050b0e524ad44f57d",
+    "cohort_sha256": "ec454c5459f8ef526652178408d26793671a1e55da0f8b393e1edcc4e0c80f2c",
+    "cutoff": "2021-06-01",
+    "end_exclusive": "2021-07-01",
+    "candidate_count": 50,
+    "candidate_pools_sha256": "068d9c60e6ccaa65f37f266ba5a6f2cc68bac69a65820effb39caccd3dc92e57"
+  },
+  "verification": {
+    "ordered_pools_matched_for_users": 500,
+    "prediction_and_grade_rows_checked": 3500,
+    "reconstructed_prompt_and_embedding_case_hashes_matched": true
+  },
+  "overall": {
+    "users": 500,
+    "nonempty_users": 62,
+    "maxsim_vs_meansim_nonempty": {
+      "better": 6,
+      "worse": 8,
+      "equal": 48
+    },
+    "maxsim_meansim_identical_top10_users": 209,
+    "ndcg_at_10": {
+      "cbf": {
+        "all_users": 0.03225811676059308,
+        "nonempty": 0.26014610290800866
+      },
+      "MaxSim": {
+        "all_users": 0.034070143704655234,
+        "nonempty": 0.274759223424639
+      },
+      "MeanSim": {
+        "all_users": 0.03439070244539912,
+        "nonempty": 0.2773443745596703
+      },
+      "llmrank": {
+        "all_users": 0.031789444699846084,
+        "nonempty": 0.2563664895148878
+      },
+      "popularity": {
+        "all_users": 0.031009900307155794,
+        "nonempty": 0.25007984118674026
+      },
+      "latest_buy": {
+        "all_users": 0.049486358280213895,
+        "nonempty": 0.39908353451785394
+      },
+      "latest_buy_or_sell": {
+        "all_users": 0.050318457086664124,
+        "nonempty": 0.40579400876342037
+      }
+    }
+  },
+  "by_used_history_assets": {
+    "1": {
+      "users": 209,
+      "nonempty_users": 7,
+      "maxsim_vs_meansim_nonempty": {
+        "better": 0,
+        "worse": 0,
+        "equal": 7
+      },
+      "maxsim_meansim_identical_top10_users": 209,
+      "ndcg_at_10": {
+        "cbf": {
+          "all_users": 0.014638956091495906,
+          "nonempty": 0.4370774033032349
+        },
+        "MaxSim": {
+          "all_users": 0.014563750004013642,
+          "nonempty": 0.43483196440555016
+        },
+        "MeanSim": {
+          "all_users": 0.014563750004013642,
+          "nonempty": 0.43483196440555016
+        },
+        "llmrank": {
+          "all_users": 0.014895441113710326,
+          "nonempty": 0.44473531325220833
+        },
+        "popularity": {
+          "all_users": 0.00966453515760532,
+          "nonempty": 0.28855540684850167
+        },
+        "latest_buy": {
+          "all_users": 0.01883972894714922,
+          "nonempty": 0.5625004785648838
+        },
+        "latest_buy_or_sell": {
+          "all_users": 0.018298354819084827,
+          "nonempty": 0.546336593884104
+        }
+      }
+    },
+    "2–3": {
+      "users": 131,
+      "nonempty_users": 7,
+      "maxsim_vs_meansim_nonempty": {
+        "better": 1,
+        "worse": 1,
+        "equal": 5
+      },
+      "maxsim_meansim_identical_top10_users": 0,
+      "ndcg_at_10": {
+        "cbf": {
+          "all_users": 0.026188370672315976,
+          "nonempty": 0.49009665115334183
+        },
+        "MaxSim": {
+          "all_users": 0.02661936595938534,
+          "nonempty": 0.4981624200970685
+        },
+        "MeanSim": {
+          "all_users": 0.02403597186547677,
+          "nonempty": 0.44981604491106525
+        },
+        "llmrank": {
+          "all_users": 0.022900763358778626,
+          "nonempty": 0.42857142857142855
+        },
+        "popularity": {
+          "all_users": 0.011041180384406001,
+          "nonempty": 0.20662780433674088
+        },
+        "latest_buy": {
+          "all_users": 0.021082897001090953,
+          "nonempty": 0.3945513581632736
+        },
+        "latest_buy_or_sell": {
+          "all_users": 0.021082897001090953,
+          "nonempty": 0.3945513581632736
+        }
+      }
+    },
+    "4–5": {
+      "users": 160,
+      "nonempty_users": 48,
+      "maxsim_vs_meansim_nonempty": {
+        "better": 5,
+        "worse": 7,
+        "equal": 36
+      },
+      "maxsim_meansim_identical_top10_users": 0,
+      "ndcg_at_10": {
+        "cbf": {
+          "all_users": 0.06024274999437812,
+          "nonempty": 0.20080916664792706
+        },
+        "MaxSim": {
+          "all_users": 0.06565069475505804,
+          "nonempty": 0.2188356491835268
+        },
+        "MeanSim": {
+          "all_users": 0.06876759473427033,
+          "nonempty": 0.22922531578090108
+        },
+        "llmrank": {
+          "all_users": 0.061134844732234905,
+          "nonempty": 0.20378281577411636
+        },
+        "popularity": {
+          "all_users": 0.07524167297050749,
+          "nonempty": 0.2508055765683583
+        },
+        "latest_buy": {
+          "all_users": 0.11277385176881154,
+          "nonempty": 0.3759128392293718
+        },
+        "latest_buy_or_sell": {
+          "all_users": 0.11608133049375262,
+          "nonempty": 0.38693776831250876
+        }
+      }
+    }
+  },
+  "coverage": {
+    "relevant_user_asset_pairs": 153,
+    "covered_pairs": 42,
+    "missing_pairs": 111,
+    "unique_assets_missing_for_at_least_one_user": 53,
+    "users_with_any_missing": 40,
+    "users_with_all_missing": 28,
+    "users_with_any_relevant_candidate": 34,
+    "users_with_relevant_candidate_but_both_embeddings_ndcg_zero": 5
+  },
+  "repeated_recommendations": {
+    "definition": "ISIN with an eligible Buy before cutoff in the full user history",
+    "relevant_repeat_pairs": 83,
+    "methods": {
+      "cbf": {
+        "repeat_slots": 1017,
+        "total_slots": 5000,
+        "repeat_share": 0.2034,
+        "users_with_repeat": 486,
+        "relevant_repeat_hits": 34
+      },
+      "MaxSim": {
+        "repeat_slots": 1005,
+        "total_slots": 5000,
+        "repeat_share": 0.201,
+        "users_with_repeat": 490,
+        "relevant_repeat_hits": 29
+      },
+      "MeanSim": {
+        "repeat_slots": 1009,
+        "total_slots": 5000,
+        "repeat_share": 0.2018,
+        "users_with_repeat": 491,
+        "relevant_repeat_hits": 29
+      },
+      "llmrank": {
+        "repeat_slots": 985,
+        "total_slots": 5000,
+        "repeat_share": 0.197,
+        "users_with_repeat": 479,
+        "relevant_repeat_hits": 33
+      },
+      "popularity": {
+        "repeat_slots": 910,
+        "total_slots": 5000,
+        "repeat_share": 0.182,
+        "users_with_repeat": 396,
+        "relevant_repeat_hits": 37
+      },
+      "latest_buy": {
+        "repeat_slots": 1606,
+        "total_slots": 5000,
+        "repeat_share": 0.3212,
+        "users_with_repeat": 500,
+        "relevant_repeat_hits": 69
+      },
+      "latest_buy_or_sell": {
+        "repeat_slots": 1590,
+        "total_slots": 5000,
+        "repeat_share": 0.318,
+        "users_with_repeat": 500,
+        "relevant_repeat_hits": 69
+      }
+    }
+  },
+  "llmrank": {
+    "users": 500,
+    "generation_attempts": 494,
+    "valid_responses": 384,
+    "fallbacks": 116,
+    "accepted_after_parse_repair": 0,
+    "parse_repairs_flagged": 0,
+    "fallback_reasons": {
+      "Context budget exceeded": 6,
+      "Duplicate ISINs": 18,
+      "Expected exactly ten string ISINs": 5,
+      "ISIN outside candidate set": 87
+    },
+    "technical_errors_in_saved_run": 0
+  },
+  "timing_seconds": {
+    "original_data_preparation": null,
+    "analysis_data_preparation_replay": 3.0235639999154955,
+    "embedding_cache_fill_including_model_load": 11.613044958095998,
+    "embedding_cache": {
+      "unique_texts": 447,
+      "cache_hits": 0,
+      "cache_misses": 447,
+      "cache_entries": 447
+    },
+    "maxsim_and_meansim_combined_scoring": 1.4826946309767663,
+    "llmrank_per_user_wall_sum": 9062.023897704436,
+    "llmrank_generation_sum": 9056.143112918828,
+    "llmrank_model_load": null
+  }
+}

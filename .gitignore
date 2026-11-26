@@ -26,6 +26,9 @@ outputs/
 /Ivan/session2/results/final_results/
 # Local notes for the HW2 report.
 /Ivan/session2/REPORT_FACTS.txt
+# Local HW3 archive and report notes.
+/Ivan/session3/results/final_results/
+/Ivan/session3/REPORT_FACTS.txt
 generation_cache/
 experiment_outputs/
 runs/
